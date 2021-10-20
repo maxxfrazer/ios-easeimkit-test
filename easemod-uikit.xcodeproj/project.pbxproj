@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90BB7D3CC5E64F8C9119CE1D /* Pods_easemod_uikit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1ACF8C2A8E497B0930EA22 /* Pods_easemod_uikit.framework */; };
+		F39B87D527201A4200C644C7 /* AppKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B87D427201A4100C644C7 /* AppKeys.swift */; };
+		F3CE15AA26F47D66002C8AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE15A926F47D66002C8AD3 /* AppDelegate.swift */; };
+		F3CE15AC26F47D66002C8AD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE15AB26F47D66002C8AD3 /* SceneDelegate.swift */; };
+		F3CE15AE26F47D66002C8AD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE15AD26F47D66002C8AD3 /* ViewController.swift */; };
+		F3CE15B126F47D66002C8AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CE15AF26F47D66002C8AD3 /* Main.storyboard */; };
+		F3CE15B326F47D71002C8AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CE15B226F47D71002C8AD3 /* Assets.xcassets */; };
+		F3CE15B626F47D71002C8AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CE15B426F47D71002C8AD3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		692E80E504260B29D31830E7 /* Pods-easemod-uikit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easemod-uikit.debug.xcconfig"; path = "Target Support Files/Pods-easemod-uikit/Pods-easemod-uikit.debug.xcconfig"; sourceTree = "<group>"; };
+		BF1ACF8C2A8E497B0930EA22 /* Pods_easemod_uikit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easemod_uikit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEBDA87D1C809110B74A678 /* Pods-easemod-uikit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easemod-uikit.release.xcconfig"; path = "Target Support Files/Pods-easemod-uikit/Pods-easemod-uikit.release.xcconfig"; sourceTree = "<group>"; };
+		F39B87D427201A4100C644C7 /* AppKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKeys.swift; sourceTree = "<group>"; };
+		F3CE15A626F47D66002C8AD3 /* easemod-uikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "easemod-uikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CE15A926F47D66002C8AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3CE15AB26F47D66002C8AD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3CE15AD26F47D66002C8AD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3CE15B026F47D66002C8AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3CE15B226F47D71002C8AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3CE15B526F47D71002C8AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3CE15B726F47D71002C8AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3CE15A326F47D66002C8AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BB7D3CC5E64F8C9119CE1D /* Pods_easemod_uikit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3224782E50FA3BAABC068D03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				692E80E504260B29D31830E7 /* Pods-easemod-uikit.debug.xcconfig */,
+				ECEBDA87D1C809110B74A678 /* Pods-easemod-uikit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		94F01A74AEC008BBF35FF31C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF1ACF8C2A8E497B0930EA22 /* Pods_easemod_uikit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3CE159D26F47D66002C8AD3 = {
+			isa = PBXGroup;
+			children = (
+				F3CE15A826F47D66002C8AD3 /* easemod-uikit */,
+				F3CE15A726F47D66002C8AD3 /* Products */,
+				3224782E50FA3BAABC068D03 /* Pods */,
+				94F01A74AEC008BBF35FF31C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CE15A726F47D66002C8AD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE15A626F47D66002C8AD3 /* easemod-uikit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CE15A826F47D66002C8AD3 /* easemod-uikit */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE15A926F47D66002C8AD3 /* AppDelegate.swift */,
+				F3CE15AB26F47D66002C8AD3 /* SceneDelegate.swift */,
+				F3CE15AD26F47D66002C8AD3 /* ViewController.swift */,
+				F39B87D427201A4100C644C7 /* AppKeys.swift */,
+				F3CE15AF26F47D66002C8AD3 /* Main.storyboard */,
+				F3CE15B226F47D71002C8AD3 /* Assets.xcassets */,
+				F3CE15B426F47D71002C8AD3 /* LaunchScreen.storyboard */,
+				F3CE15B726F47D71002C8AD3 /* Info.plist */,
+			);
+			path = "easemod-uikit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3CE15A526F47D66002C8AD3 /* easemod-uikit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CE15BA26F47D71002C8AD3 /* Build configuration list for PBXNativeTarget "easemod-uikit" */;
+			buildPhases = (
+				007A308CCE3CCE2F8D876B33 /* [CP] Check Pods Manifest.lock */,
+				F3CE15A226F47D66002C8AD3 /* Sources */,
+				F3CE15A326F47D66002C8AD3 /* Frameworks */,
+				F3CE15A426F47D66002C8AD3 /* Resources */,
+				4C1C301635AB73AA74749B52 /* [CP] Embed Pods Frameworks */,
+				FD4AC1F3F074CBE44AAF6924 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "easemod-uikit";
+			packageProductDependencies = (
+			);
+			productName = "easemod-uikit";
+			productReference = F3CE15A626F47D66002C8AD3 /* easemod-uikit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CE159E26F47D66002C8AD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F3CE15A526F47D66002C8AD3 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F3CE15A126F47D66002C8AD3 /* Build configuration list for PBXProject "easemod-uikit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3CE159D26F47D66002C8AD3;
+			packageReferences = (
+			);
+			productRefGroup = F3CE15A726F47D66002C8AD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3CE15A526F47D66002C8AD3 /* easemod-uikit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3CE15A426F47D66002C8AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CE15B626F47D71002C8AD3 /* LaunchScreen.storyboard in Resources */,
+				F3CE15B326F47D71002C8AD3 /* Assets.xcassets in Resources */,
+				F3CE15B126F47D66002C8AD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		007A308CCE3CCE2F8D876B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-easemod-uikit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C1C301635AB73AA74749B52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-easemod-uikit/Pods-easemod-uikit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-easemod-uikit/Pods-easemod-uikit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-easemod-uikit/Pods-easemod-uikit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4AC1F3F074CBE44AAF6924 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-easemod-uikit/Pods-easemod-uikit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-easemod-uikit/Pods-easemod-uikit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-easemod-uikit/Pods-easemod-uikit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3CE15A226F47D66002C8AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CE15AE26F47D66002C8AD3 /* ViewController.swift in Sources */,
+				F39B87D527201A4200C644C7 /* AppKeys.swift in Sources */,
+				F3CE15AA26F47D66002C8AD3 /* AppDelegate.swift in Sources */,
+				F3CE15AC26F47D66002C8AD3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3CE15AF26F47D66002C8AD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CE15B026F47D66002C8AD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3CE15B426F47D71002C8AD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CE15B526F47D71002C8AD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3CE15B826F47D71002C8AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3CE15B926F47D71002C8AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3CE15BB26F47D71002C8AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692E80E504260B29D31830E7 /* Pods-easemod-uikit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 278494H572;
+				INFOPLIST_FILE = "easemod-uikit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.rocketar.easemod-uikit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3CE15BC26F47D71002C8AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEBDA87D1C809110B74A678 /* Pods-easemod-uikit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 278494H572;
+				INFOPLIST_FILE = "easemod-uikit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.rocketar.easemod-uikit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3CE15A126F47D66002C8AD3 /* Build configuration list for PBXProject "easemod-uikit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CE15B826F47D71002C8AD3 /* Debug */,
+				F3CE15B926F47D71002C8AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CE15BA26F47D71002C8AD3 /* Build configuration list for PBXNativeTarget "easemod-uikit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CE15BB26F47D71002C8AD3 /* Debug */,
+				F3CE15BC26F47D71002C8AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3CE159E26F47D66002C8AD3 /* Project object */;
+}
